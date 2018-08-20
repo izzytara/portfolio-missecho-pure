@@ -1,0 +1,180 @@
+body {
+  font-family: 'Muli', sans-serif;
+  font-family: 'Space Mono', monospace;
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 40px;
+}
+
+
+.echo-icing{
+  background-color: #dae9e4;
+}
+
+.echo-bora-bora{
+  background-color: #8bcbc8;
+}
+
+.echo-sakura{
+  background-color: #ecc7c0;
+}
+
+.echo-melon{
+  background-color: #fdae84;
+}
+
+.echo-bg-pink {
+  background-color: #FFB9C3;
+}
+.echo-bg-green {
+  background-color: #D9FFF5;
+}
+.echo-bg-orange {
+  background-color: #FFD2BC;
+}
+
+.echo-orange {
+  color: #FFD2BC;
+}
+
+.echo-crnberry{
+  background-color: #3c2e3d;
+}
+
+.echo-container{
+  width: 100%;
+  height: 500px;
+}
+
+.echo-contact{
+
+}
+
+.echo-contact-right p, label {
+  margin-top: 0.5rem;
+  color: white;
+}
+
+.echo-contact-right input, textarea {
+  border-style: solid;
+  border-color: white;
+  border-width: 0 0 2px 0;
+  background-color: inherit;
+  caret-color: white;
+  color: white;
+
+
+}
+
+.echo-contact-right textarea {
+  resize: none;
+}
+
+
+.echo-contact-right {
+  float: left;
+  margin-left: 4rem;
+  width: 80%;
+}
+
+.echo-contact-left {
+  float: right;
+  margin-right: 4rem;
+  width: 80%;
+}
+
+.ech-contact-left p {
+  color: black;
+
+}
+
+
+
+
+.echo-footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+.echo-button {
+  border: 2px solid white;
+  background-color: inherit;
+  color: white;
+  margin-top: 2rem;
+  padding: 0.5rem 2.5rem;
+  font-size: 0.9rem;
+
+}
+
+h4:after {
+    display: inline-block;
+    margin: 0 0 8px 20px;
+    height: 1.2px;
+    content: " ";
+    text-shadow: none;
+    background-color: inherit;
+    width: 100px;
+}
+
+
+h4:before {
+    display: inline-block;
+    margin: 0 20px 8px 0;
+    height: 1.2px;
+    content: " ";
+    text-shadow: none;
+    background-color: black;
+    width: 100px;
+}
+
+#work .echo-container {
+  height: auto;
+}
+
+.work-img {
+  width: 100%;
+  height: 18rem;
+}
+#work .card-deck {
+  margin: 2rem 0;
+}
+#work .card {
+  border: none;
+
+}
+
+#about button {
+  color: black;
+  border-color: black;
+}
+.echo-left {
+  float: left;
+}
+
+.echo-right {
+  float: right;
+}
+
+.echo-ht p {
+  margin: 5rem 2rem;
+  font-size: 0.7rem;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+
+.half-bg-color {
+  background: linear-gradient(to right, white 50%, #FFD2BC 50%);
+
+}
+
+/*#home .echo-container {
+  background-image: url("/img/missecho.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/

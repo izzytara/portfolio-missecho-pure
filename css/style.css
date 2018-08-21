@@ -8,29 +8,30 @@ h1 {
   font-size: 40px;
 }
 
-
-.echo-icing{
+.echo-icing {
   background-color: #dae9e4;
 }
 
-.echo-bora-bora{
+.echo-bora-bora {
   background-color: #8bcbc8;
 }
 
-.echo-sakura{
+.echo-sakura {
   background-color: #ecc7c0;
 }
 
-.echo-melon{
+.echo-melon {
   background-color: #fdae84;
 }
 
 .echo-bg-pink {
   background-color: #FFB9C3;
 }
+
 .echo-bg-green {
   background-color: #D9FFF5;
 }
+
 .echo-bg-orange {
   background-color: #FFD2BC;
 }
@@ -39,39 +40,36 @@ h1 {
   color: #FFD2BC;
 }
 
-.echo-crnberry{
+.echo-crnberry {
   background-color: #3c2e3d;
 }
 
-.echo-container{
+.echo-container {
   width: 100%;
   height: 500px;
 }
 
-.echo-contact{
+.echo-contact {}
 
-}
-
-.echo-contact-right p, label {
+.echo-contact-right p,
+label {
   margin-top: 0.5rem;
   color: white;
 }
 
-.echo-contact-right input, textarea {
+.echo-contact-right input,
+textarea {
   border-style: solid;
   border-color: white;
   border-width: 0 0 2px 0;
   background-color: inherit;
   caret-color: white;
   color: white;
-
-
 }
 
 .echo-contact-right textarea {
   resize: none;
 }
-
 
 .echo-contact-right {
   float: left;
@@ -87,50 +85,64 @@ h1 {
 
 .ech-contact-left p {
   color: black;
-
 }
 
-
-
-
-.echo-footer{
-    width: 100%;
-    height: 100px;
-    background-color: black;
-    color: white;
-    text-align: center;
+.echo-footer {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
 
-
-.echo-button {
+.echo-button-white {
   border: 2px solid white;
   background-color: inherit;
   color: white;
   margin-top: 2rem;
   padding: 0.5rem 2.5rem;
   font-size: 0.9rem;
+}
 
+.echo-button-white:hover {
+  background-color: white;
+  border-color: inherit;
+  color: inherit;
+}
+
+.echo-button-black {
+  border: 2px solid black;
+  background-color: inherit;
+  color: black;
+  margin-top: 2rem;
+  padding: 0.5rem 2.5rem;
+  font-size: 0.9rem;
+}
+
+.echo-button-black:hover {
+  background-color: white;
+  border-color: inherit;
+  color: inherit;
 }
 
 h4:after {
-    display: inline-block;
-    margin: 0 0 8px 20px;
-    height: 1.2px;
-    content: " ";
-    text-shadow: none;
-    background-color: inherit;
-    width: 100px;
+  display: inline-block;
+  margin: 0 0 8px 20px;
+  height: 1.2px;
+  content: " ";
+  text-shadow: none;
+  background-color: inherit;
+  width: 100px;
 }
 
-
 h4:before {
-    display: inline-block;
-    margin: 0 20px 8px 0;
-    height: 1.2px;
-    content: " ";
-    text-shadow: none;
-    background-color: black;
-    width: 100px;
+  display: inline-block;
+  margin: 0 20px 8px 0;
+  height: 1.2px;
+  content: " ";
+  text-shadow: none;
+  background-color: black;
+  width: 100px;
 }
 
 #work .echo-container {
@@ -141,18 +153,20 @@ h4:before {
   width: 100%;
   height: 18rem;
 }
+
 #work .card-deck {
   margin: 2rem 0;
 }
+
 #work .card {
   border: none;
-
 }
 
 #about button {
   color: black;
   border-color: black;
 }
+
 .echo-left {
   float: left;
 }
@@ -170,7 +184,6 @@ h4:before {
 
 .half-bg-color {
   background: linear-gradient(to right, white 50%, #FFD2BC 50%);
-
 }
 
 /*#home .echo-container {
@@ -178,3 +191,41 @@ h4:before {
   background-repeat: no-repeat;
   background-size: cover;
 }*/
+
+/*CSS for Works*/
+
+.echo-works-left {
+  text-align: right;
+  padding: 2rem 2rem 1rem 0rem;
+}
+
+.echo-works-right {
+  text-align: left;
+  padding: 2rem 0rem 1rem 2rem;
+}
+
+.echo-works-img {
+  width: 100%;
+  height: 23rem;
+}
+
+/* Echo font color*/
+
+.echo-font-grey {
+  color: lightslategrey;
+}
+
+.echo-font-black {
+  color: black;
+}
+
+.echo-font-white {
+  color: white;
+}
+
+/*.echo-text-container*/
+
+.echo-text-container {
+  width: 75%;
+  margin: auto;
+}
